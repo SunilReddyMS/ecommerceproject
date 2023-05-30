@@ -1,0 +1,57 @@
+version: '3'
+services:
+  pgdb:
+    image: postgres
+    container_name: ecommercepgdb
+    restart: always
+    ports:
+      - "6000:5432"
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=ecommercemaker
+      - POSTGRES_PASSWORD=P@$$C0dE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
